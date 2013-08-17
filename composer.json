@@ -1,0 +1,36 @@
+{
+	"name" : "keeko/bootstrap-design",
+	"description" : "Keeko design with twitter bootstrap",
+	"type" : "keeko-design",
+	"keywords" : [
+		"keeko",
+		"design",
+		"bootstrap"
+	],
+	"license" : [
+		"MIT"
+	],
+	"require" : {
+		"php" : ">=5.4"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Keeko" : "src"
+		}
+	},
+	"extra" : {
+		"keeko" : {
+			"design" : {
+				"layouts" : {
+					"main" : {
+						"title" : "Default Layout",
+						"blocks" : {
+							"menu" : "Menu",
+							"main" : "Main Content"
+						}
+					}
+				}
+			}
+		}
+	}
+}
