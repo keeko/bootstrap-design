@@ -21,6 +21,7 @@
 	"extra" : {
 		"keeko" : {
 			"design" : {
+				"title" : "Bootstrap Design",
 				"layouts" : {
 					"main" : {
 						"title" : "Default Layout",
